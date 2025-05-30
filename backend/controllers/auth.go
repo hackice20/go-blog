@@ -127,7 +127,7 @@ func Logout(c *fiber.Ctx) error {
 	return utils.SuccessResponse(c, fiber.StatusOK, "Logout successful", nil)
 }
 
-//gpt code might be fucked
+
 
 func UnauthorizedResponse(c *fiber.Ctx) error {
 
